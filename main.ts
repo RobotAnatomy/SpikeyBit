@@ -1,7 +1,8 @@
+//% color=#ffff00 weight=10 icon="\uf631"
 namespace SpikeyBit
  {
     /**
-  * TODO: describe your function here
+  * TODO: Avancer Robot Spikey
   * @param n the n from 0 (min) to 100 (max), eg:0
   */
     //% blockId=SpikeyBit_Avancer block="Avancer avec vitesse %n"
@@ -19,7 +20,7 @@ namespace SpikeyBit
 
 
     /**
-     * TODO: describe your function here
+     * TODO: Reculer Robot Spikey
      * @param n the n from 0 (min) to 100 (max), eg:0
      */
     //% blockId=SpikeyBit_Reculer block="Recculer avec vitesse %n"
@@ -37,7 +38,7 @@ namespace SpikeyBit
 
 
     /**
-     * TODO: describe your function here
+     * TODO: Touner à gauche Robot Spikey
      * @param n the n from 0 (min) to 100 (max), eg:50
      */
     //% blockId=SpikeyBit_TG block="Tourner Gauche avec vitesse %n"
@@ -55,7 +56,7 @@ namespace SpikeyBit
 
 
     /**
-     * TODO: describe your function here
+     * TODO: Touner à droite Robot Spikey
      * @param n the n from 0 (min) to 100 (max), eg:50
      */
     //% blockId=SpikeyBit_TD block="Tourner droite avec vitesse %n"
@@ -73,7 +74,7 @@ namespace SpikeyBit
 
 
     /**
-     * TODO: describe your function here
+     * TODO: Stopper Robot Spikey
      * 
      */
     //% blockId=SpikeyBit_Stop block="Stop"
