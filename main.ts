@@ -1,4 +1,4 @@
-//% color=#efe70d weight=10 icon="\f631"
+//% color=#efe70d weight=10 icon="\uf1b9"
 namespace SpikeyBit
  {
     /**
