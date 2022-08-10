@@ -18,7 +18,6 @@ namespace SpikeyBit
 
     }
 
-
     /**
      * TODO: Reculer Robot Spikey
      * @param n the n from 0 (min) to 100 (max), eg:0
