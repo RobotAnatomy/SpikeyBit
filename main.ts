@@ -22,7 +22,7 @@ namespace SpikeyBit
      * TODO: Reculer Robot Spikey
      * @param n the n from 0 (min) to 100 (max), eg:0
      */
-    //% blockId=SpikeyBit_Reculer block="Recculer avec vitesse %n"
+    //% blockId=SpikeyBit_Reculer block="Reculer avec vitesse %n"
     //% n.min=0 n.max=100
     export function Reculer(n: number): void {
         // Add code here
@@ -138,5 +138,14 @@ namespace SpikeyBit
         return Math.idiv(d, 58);
          
     }
+
+    //% blockId=SpikeyBit_readLFS block="Lire capteur suiveur de ligne Pin|%Pin "
+    //% patrol.fieldEditor="gridpicker" patrol.fieldOptions.columns=2 
+    export function readState(Pin: DigitalPin): number {
+
+            return pins.digitalReadPin(Pin);
+       
+        }
+    
 
 }
