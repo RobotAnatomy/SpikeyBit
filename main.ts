@@ -37,12 +37,12 @@ namespace SpikeyBit
 
 
     /**
-     * TODO: Touner à gauche Robot Spikey
+     * TODO: Touner à droite Robot Spikey
      * @param n the n from 0 (min) to 100 (max), eg:50
      */
-    //% blockId=SpikeyBit_TG block="Tourner Gauche avec vitesse %n"
+    //% blockId=SpikeyBit_TG block="Tourner Droite avec vitesse %n"
     //% n.min=0 n.max=100
-    export function Tourner_Gauche(n: number): void {
+    export function Tourner_Droite(n: number): void {
         // Add code here
 
         pins.digitalWritePin(DigitalPin.P8, 0)
@@ -55,12 +55,12 @@ namespace SpikeyBit
 
 
     /**
-     * TODO: Touner à droite Robot Spikey
+     * TODO: Touner à gauche Robot Spikey
      * @param n the n from 0 (min) to 100 (max), eg:50
      */
-    //% blockId=SpikeyBit_TD block="Tourner droite avec vitesse %n"
+    //% blockId=SpikeyBit_TD block="Tourner gauche avec vitesse %n"
     //% n.min=0 n.max=100
-    export function Tourner_Droite(n: number): void {
+    export function Tourner_Gauche(n: number): void {
         // Add code here
 
         pins.digitalWritePin(DigitalPin.P8, 0)
